@@ -1,0 +1,488 @@
+/* ESTILOS GENERALES */
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: #141414;
+    color: #fbfdfe;
+    font-family: "Aileron";
+}
+
+@font-face {
+        font-family: "Aileron";
+        src: url(../fuentes/aileron-Regular.otf);
+        font-weight: Regular;
+        letter-spacing: 1.5px;
+}
+
+@font-face {
+    font-family: "Aileron Thin";
+    src: url(../fuentes/aileron-Thin.otf);
+    font-weight: Thin;
+    letter-spacing: 1.5px;
+}
+
+@font-face {
+    font-family: "Aileron Bold";
+    src: url(../fuentes/aileron-Bold.otf);
+    font-weight: Bold;
+    letter-spacing: 1.5px;
+}
+
+/* MENÚ DE NAVEGACIÓN Y HEADER */
+#header {
+background-color:#393a3adb;
+width: 100%;
+position: absolute;
+z-index: 100;
+border-radius: 5px;
+
+}
+
+#header .logo {
+    width: 160px;
+    padding-left: 20px;
+    
+}
+
+#header .navbar .container-fluid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 2rem;
+    background-color: transparent;
+}
+
+#header .navbar-collapse {
+    flex-grow: 0;
+}
+
+#header ul li a {
+    color: white;
+    margin-right: 0 18px;
+    font-family: "Aileron Bold";
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
+}
+
+#header ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px 10px 10px 10px;
+    transform: scale(1.05);
+}
+
+/* PORTADA Y CARRUSEL DE IMAGENES */
+.carousel-indicators {
+    height: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 0;
+}
+
+.text-portada {
+    font-family: "Aileron Bold";
+    font-size: 3rem; 
+    letter-spacing: 1.5px;
+}
+
+/* NOSOTROS */
+
+#nosotros {
+    min-height: 100vh;
+    font-family: "Aileron";
+    letter-spacing: 1.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#nosotros .imagen-intro {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#nosotros .imagen-intro img {
+    width: 450px;
+}
+
+.parrafo-intro {
+    margin-top: 30px;
+    padding: 20px;
+    font-family: "Aileron";
+}
+
+
+.parrafo-intro h3 {
+    font-size: 3rem;
+    padding: 1.1rem;
+    color: white;
+    text-align: left;
+}
+
+.parrafo-intro p {
+    font-size: 1.2rem;
+    color: white;
+    padding: 1.1rem;
+    text-align: left;
+}
+
+.parrafo-intro button{
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    border: black;
+    background-color: black;
+    margin: 1rem;
+}
+
+.parrafo-intro button a {
+    text-decoration: none;
+    color: white;  
+    font-size: 1.2rem;
+    font-family: "Aileron";
+}
+
+#nosotros h2 {
+    font-family: "Aileron Bold";
+    font-size: 2rem;
+    color: white;
+    text-align: left;
+    display: block;
+    padding:1rem;
+    border-radius: 10px 10px 10px 10px;
+    background-color: black;
+    letter-spacing: 1.5px;
+    margin-top: 1.5rem;
+}
+
+#nosotros .nosotros-parrafo {
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    letter-spacing: 1.5px;
+}
+
+.posicionamientoNos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.posicionamientoNos 
+
+.posicionamientoNosotros {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+.bloque-Nosotros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1.8rem;
+}
+
+.nosotros-Uno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin-top: 2rem;
+}
+.nosotros-Uno img {
+    width: 300px;
+    vertical-align: middle;
+    align-self: middle;
+}
+
+.nosotros-Dos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin-top: 2rem;
+}
+
+.nosotros-Dos img {
+    width: 300px;
+}
+
+.nosotros-Tres {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin-top: 2rem;
+}
+
+.nosotros-Tres img {
+    width: 300px;
+}
+
+.nosotros-h5 {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.nosotros-p {
+    font-size: 0.8rem;
+    color: white;
+    text-align: center;
+} 
+
+.bg-negro {
+    background-color: black;
+}
+
+/* Clientes */
+#clientes {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.clientes-txt{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#clientes h2 {
+    font-family: "Aileron Bold";
+    font-size: 2rem;
+    color: white;
+    text-align: left;
+    display: block;
+    padding:1rem;
+    border-radius: 10px 10px 10px 10px;
+    background-color: black;
+    letter-spacing: 1.5px;
+}
+
+.clientes-txt p {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    font-family: "Aileron";
+    letter-spacing: 1.5px;
+}
+
+.sliderMarcas{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.slideItem{
+    width: 12%;
+    height: auto;
+    margin: 0 50px;
+}
+
+.slick-dots li button:before{
+    color: #fbfdfe;
+}
+.slick-dots li.slick-active button:before {
+    color: #fbfdfe;
+}
+
+/*Business*/
+#business{
+    margin: 50px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+    font-family: "Aileron";
+    letter-spacing: 1.5px;
+   
+}
+
+#business h2 {
+    font-family: "Aileron Bold";
+    font-size: 2rem;
+    color: white;
+    text-align: left;
+    display: block;
+    padding:1rem;
+    border-radius: 10px 10px 10px 10px;
+    background-color: black;
+    letter-spacing: 1.5px;
+}
+
+.posicionamientoBusiness {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.businessTvc  p {
+    font-size: 1.2rem;
+}
+.businessImg{
+    width: 500px;
+    height: 250px;
+}
+.businnesItem{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.businessDetalle h3 {
+    font-size: 2rem;
+}
+
+.businessDetalle p {
+    font-size: 1.2rem;
+}
+
+.businessNumber{
+    font-size: 30px;
+    margin: 0;
+    color: #666769;
+    font-weight: bold;
+}
+
+.tvc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.tvc-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+/*Contacto*/
+#contacto{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+    font-family: "Aileron";
+    letter-spacing: 1.5px;
+}
+
+.posicionamientoContacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#contacto h2 {
+    font-family: "Aileron Bold";
+    font-size: 2rem;
+    color: white;
+    text-align: left;
+    display: block;
+    padding:1rem;
+    border-radius: 10px 10px 10px 10px;
+    background-color: black;
+    letter-spacing: 1.5px;
+}
+
+#contacto div form button {
+    border-radius: 10px;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: black;
+}
+
+.contactoTitulo p {
+    font-size: 1.2rem;
+}
+
+form label {
+    font-size: 1.2rem;
+}
+
+.contactoImg{
+    width: 500px;
+    height: auto;
+    padding-top: 40px;
+}
+
+.datosContacto {
+    padding-top: 40px;
+    font-family: "Aileron";
+}
+
+.datosContacto p img {
+    background-color: white;
+    border-radius: 100%;
+    margin-right: 7px;
+}
+
+/*Footer*/
+
+.footer {
+    font-family: "Aileron";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #67696a4d;
+    padding: 30px;
+    letter-spacing: 1.5px;
+    border-radius: 5px;
+}
+
+.suscribe h3{
+    font-family: "Aileron Bold";
+    font-size: 2rem;
+    padding: 10px;
+}
+.suscribe p {
+    font-size: 1.2rem;
+    padding:10px;
+}
+
+.suscribe form input {
+    border-radius: 10px;
+    width: 50%;
+    padding: 10px;
+}
+
+.suscribe form button {
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: black;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.redes h3{
+    font-family: "Aileron Bold";
+    font-size: 2rem;
+    padding: 15px;
+}
+
+.redes a {
+    padding: 10px;
+}
