@@ -10,6 +10,7 @@ body{
     background-color: #141414;
     color: #fbfdfe;
     font-family: "Aileron";
+    letter-spacing: 1.5px;
 }
 
 @font-face {
@@ -40,13 +41,11 @@ width: 100%;
 position: absolute;
 z-index: 100;
 border-radius: 5px;
-
 }
 
 #header .logo {
     width: 160px;
     padding-left: 20px;
-    
 }
 
 #header .navbar .container-fluid {
@@ -83,19 +82,9 @@ border-radius: 5px;
     margin-right: 0;
     width: 0;
 }
-
-.text-portada {
-    font-family: "Aileron Bold";
-    font-size: 3rem; 
-    letter-spacing: 1.5px;
-}
-
 /* NOSOTROS */
-
 #nosotros {
     min-height: 100vh;
-    font-family: "Aileron";
-    letter-spacing: 1.5px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -113,7 +102,6 @@ border-radius: 5px;
 .parrafo-intro {
     margin-top: 30px;
     padding: 20px;
-    font-family: "Aileron";
 }
 
 
@@ -143,7 +131,6 @@ border-radius: 5px;
     text-decoration: none;
     color: white;  
     font-size: 1.2rem;
-    font-family: "Aileron";
 }
 
 #nosotros h2 {
@@ -173,13 +160,12 @@ border-radius: 5px;
     padding: 40px;
 }
 
-.posicionamientoNos 
 
 .posicionamientoNosotros {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 .bloque-Nosotros {
     display: flex;
@@ -247,48 +233,15 @@ border-radius: 5px;
 }
 
 /* Clientes */
-#clientes {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
 .clientes-txt{
     margin: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-#clientes h2 {
-    font-family: "Aileron Bold";
-    font-size: 2rem;
-    color: white;
-    text-align: left;
-    display: block;
-    padding:1rem;
-    border-radius: 10px 10px 10px 10px;
-    background-color: black;
-    letter-spacing: 1.5px;
-}
-
-.clientes-txt p {
-    margin-top: 30px;
-    font-size: 1.2rem;
-    font-family: "Aileron";
-    letter-spacing: 1.5px;
 }
 
 .sliderMarcas{
     margin: 30px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
 }
 .slideItem{
-    width: 12%;
+    width: 150px;
     height: auto;
     margin: 0 50px;
 }
@@ -300,34 +253,32 @@ border-radius: 5px;
     color: #fbfdfe;
 }
 
+
+
 /*Business*/
 #business{
     margin: 50px 30px 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 100vh;
-    font-family: "Aileron";
-    letter-spacing: 1.5px;
-   
+    height: 100vh;   
 }
 
 #business h2 {
-    font-family: "Aileron Bold";
+    font-weight: bold;
     font-size: 2rem;
     color: white;
     text-align: left;
     display: block;
     padding:1rem;
     border-radius: 10px 10px 10px 10px;
-    background-color: black;
-    letter-spacing: 1.5px;
 }
 
 .posicionamientoBusiness {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .businessTvc  p {
@@ -370,6 +321,11 @@ border-radius: 5px;
     flex-direction: column;
     justify-content: space-around;
 }
+
+
+
+
+
 /*Contacto*/
 #contacto{
     margin: 30px;
@@ -377,8 +333,6 @@ border-radius: 5px;
     flex-direction: column;
     justify-content: space-evenly;
     height: 100vh;
-    font-family: "Aileron";
-    letter-spacing: 1.5px;
 }
 
 .posicionamientoContacto {
@@ -390,15 +344,13 @@ border-radius: 5px;
 }
 
 #contacto h2 {
-    font-family: "Aileron Bold";
+    font-weight: bold;
     font-size: 2rem;
     color: white;
     text-align: left;
     display: block;
     padding:1rem;
     border-radius: 10px 10px 10px 10px;
-    background-color: black;
-    letter-spacing: 1.5px;
 }
 
 #contacto div form button {
@@ -472,17 +424,30 @@ form label {
     border: black;
 }
 
-.redes {
+.redes-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
 }
-.redes h3{
+.redes-title{
     font-family: "Aileron Bold";
     font-size: 2rem;
-    padding: 15px;
+    padding: 10px;
 }
 
-.redes a {
+.icon-redes{
+    font-size: 25px;
     padding: 10px;
+    color: white;
+}
+
+.fa-instagram:hover{
+    color: #DD2A7B;
+}
+.fa-facebook-square:hover{
+    color: #3b5998;
+}
+
+.fa-linkedin:hover{
+    color: #0E76a8;
 }
