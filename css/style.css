@@ -482,8 +482,8 @@ form label {
         padding: 10px 40px;
     }
 
-    .posicionamientoNos .imagen-intro {
-        width: 100%;
+    #nosotros .imagen-intro img{
+        width: 300px;
     }
 
     .posicionamientoNosotros {
