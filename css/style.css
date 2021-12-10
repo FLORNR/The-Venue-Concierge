@@ -150,6 +150,7 @@ border-radius: 5px;
     color: white;
     font-size: 1.2rem;
     margin-top: 1rem;
+    padding: 1.2rem;
     letter-spacing: 1.5px;
 }
 
@@ -233,6 +234,19 @@ border-radius: 5px;
 }
 
 /* Clientes */
+#clientes h2 {
+    font-family: "Aileron Bold";
+    font-size: 2rem;
+    color: white;
+    text-align: left;
+    display: block;
+    padding:1rem;
+    border-radius: 10px 10px 10px 10px;
+    background-color: black;
+    letter-spacing: 1.5px;
+    margin-top: 1.5rem;
+}
+
 .clientes-txt{
     margin: 30px;
 }
@@ -257,27 +271,29 @@ border-radius: 5px;
 
 /*Business*/
 #business{
-    margin: 50px 30px 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 100vh;   
+    min-height: 100vh;   
 }
 
 #business h2 {
-    font-weight: bold;
+    font-family: "Aileron Bold";
     font-size: 2rem;
     color: white;
     text-align: left;
     display: block;
     padding:1rem;
     border-radius: 10px 10px 10px 10px;
+    background-color: black;
+    letter-spacing: 1.5px;
+    margin-top: 1.5rem;
 }
 
 .posicionamientoBusiness {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -328,11 +344,10 @@ border-radius: 5px;
 
 /*Contacto*/
 #contacto{
-    margin: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .posicionamientoContacto {
@@ -344,13 +359,16 @@ border-radius: 5px;
 }
 
 #contacto h2 {
-    font-weight: bold;
+    font-family: "Aileron Bold";
     font-size: 2rem;
     color: white;
     text-align: left;
     display: block;
     padding:1rem;
     border-radius: 10px 10px 10px 10px;
+    background-color: black;
+    letter-spacing: 1.5px;
+    margin-top: 1.5rem;
 }
 
 #contacto div form button {
@@ -450,4 +468,82 @@ form label {
 
 .fa-linkedin:hover{
     color: #0E76a8;
+}
+
+/* Media queries */
+
+@media all and (max-width:992px) {
+    /* Nosotros */
+    .posicionamientoNos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 40px;
+    }
+
+    .posicionamientoNos .imagen-intro {
+        width: 100%;
+    }
+
+    .posicionamientoNosotros {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 40px;
+    }
+    .posicionamientoNosotros .nosotros-parrafo {
+        padding: 1.1rem;
+    }
+
+    .bloque-Nosotros {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .nosotros-Uno, .nosotros-Dos, .nosotros-Tres {
+        width: 90%;
+    }
+
+    
+    
+
+    .posicionamientoBusiness {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .posicionamientoBusiness .businessImg {
+        width: 100%;
+    }
+
+
+    .posicionamientoContacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .posicionamientoContacto .contactoImg {
+        width: 100%;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        height: auto;
+    }
+    .footer .redes-container {
+        padding-top: 1.5rem;
+    }
 }
