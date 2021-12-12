@@ -546,4 +546,14 @@ form label {
     .footer .redes-container {
         padding-top: 1.5rem;
     }
+
+    .slider__desktop {
+        display: none; }
+}
+
+
+
+@media all and (min-width:992px){
+    .slider__mobile {
+        display: none; }
 }
