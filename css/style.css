@@ -34,18 +34,17 @@ body{
     letter-spacing: 1.5px;
 }
 
-/* MENÚ DE NAVEGACIÓN Y HEADER */
+/* MENÚ DE NAVEGACIÓN Y HEADER 
 #header {
 background-color:#393a3adb;
 width: 100%;
 position: absolute;
 z-index: 100;
-border-radius: 5px;
+
 }
 
 #header .logo {
-    width: 160px;
-    padding-left: 20px;
+    width: 100px;
 }
 
 #header .navbar .container-fluid {
@@ -53,7 +52,7 @@ border-radius: 5px;
     flex-direction: row;
     justify-content: space-between;
     padding: 0 2rem;
-    background-color: transparent;
+
 }
 
 #header .navbar-collapse {
@@ -64,7 +63,7 @@ border-radius: 5px;
     color: white;
     margin-right: 0 18px;
     font-family: "Aileron Bold";
-    font-size: 1.1rem;
+    font-size: 1rem;
     letter-spacing: 1.5px;
 }
 
@@ -73,7 +72,34 @@ border-radius: 5px;
     color: black;
     border-radius: 10px 10px 10px 10px;
     transform: scale(1.05);
+}*/
+
+header{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    background-color:#393a3adb;
+    opacity: .8;
 }
+.logoNav{
+    width: 100px;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+    
+}
+
+.nav-item .nav-link {    
+    text-transform: uppercase;
+    color: white;
+    font-family: "Aileron Thin";
+    font-size: 1rem;
+    letter-spacing: 1.5px;}
+.nav-link:hover{
+    font-family: "Aileron Bold";
+    }
+
 
 /* PORTADA Y CARRUSEL DE IMAGENES */
 .carousel-indicators {
