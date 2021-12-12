@@ -23,6 +23,8 @@ $(document).ready(() =>{
               arrows: false,
               slidesToShow: 2,
               slidesToScroll: 2,
+              mobileFirst: true,
+              centerMode:true
             }
           }
         ]
