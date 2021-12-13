@@ -116,14 +116,12 @@ header{
     flex-wrap: wrap;
     margin-top: 5px;
     align-items: center;
-  
-
 }
 
 .imagenIntro-container{
     min-width: 300px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-start; /*Centrar en el mobile"*/
     align-items: center;
 }
 
