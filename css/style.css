@@ -93,7 +93,7 @@ header{
 .nav-item .nav-link {    
     text-transform: uppercase;
     color: white;
-    font-family: "Aileron Thin";
+    font-family: "Aileron";
     font-size: 1rem;
     letter-spacing: 1.5px;}
 .nav-link:hover{
