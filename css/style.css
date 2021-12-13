@@ -611,3 +611,14 @@ form label {
     .slider__mobile {
         display: none; }
 }
+
+@media all and (max-width:480px){
+    .imagenIntro-container{
+
+        justify-content: center; 
+
+    }
+    .intro-container{
+        margin-top: 30px;
+    }
+}
