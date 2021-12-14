@@ -135,26 +135,23 @@ header{
     padding: 20px;
     background-color: black;
     border: black;
-    font-size: 2px;
+    font-size: 1rem;
     margin: 1rem;
-}
-
-.botonIntro a {
-    text-decoration: none;
     color: white;  
-    font-size: 1.2rem;
     letter-spacing: 1.5px;
+    text-transform: uppercase;
 }
 
-.botonIntro a:hover {
-    color: black;
-}
 
-.botonIntro:hover {
+
+.botonIntro:hover{
     background-color: white;
     color: black;
-    border-radius: 30px;
 }
+
+
+
+
 
 
 
@@ -450,13 +447,21 @@ header{
     margin-top: 1.5rem;
 }
 
-#contacto div form button {
-    border-radius: 10px;
-    font-size: 1.5rem;
+.botonEnviar{
+    width: 100%;
+    border-radius: 30px;
+    padding: 20px;
     background-color: black;
-    color: white;
-    padding: 10px;
     border: black;
+    font-size: 1rem;
+    color: white;  
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.botonEnviar:hover{
+    background-color: white;
+    color: black;
+
 }
 
 .contactoTitulo p {
@@ -468,7 +473,7 @@ header{
 }
 
 form {
-    padding: 1.2rem;
+    padding: 10px;
 }
 
 form label {
@@ -522,12 +527,19 @@ form label {
     padding: 10px;
 }
 
-.suscribe form button {
-    border-radius: 10px;
+.botonFooter{
+    border-radius: 30px;
+    padding: 15px;
     background-color: black;
-    color: white;
-    padding: 10px;
     border: black;
+    font-size: 0.8rem;
+    color: white;  
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.botonFooter:hover{
+    background-color: white;
+    color: black;
 }
 
 .redes-container {
@@ -741,3 +753,4 @@ form label {
         margin-top: 30px;
     }
 }
+
