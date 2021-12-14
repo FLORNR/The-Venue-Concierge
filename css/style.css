@@ -561,6 +561,27 @@ form label {
 /* Media queries */
 
 @media all and (max-width:992px) {
+    /* Menú/Header */
+
+    .nav-item {
+        text-align: center;
+    }
+
+    .nav-item .nav-link {
+        font-family: "Aileron Bold";
+        background-color: #878383;
+        margin: 10px;
+        border-radius: 10px;
+        color: black;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        color: black;
+    }
+    .navbar-dark .navbar-nav .nav-link.active {
+        color: black;
+    }
+
     /* Nosotros */
     .posicionamientoNos {
         display: flex;
@@ -568,6 +589,10 @@ form label {
         justify-content: center;
         align-items: center;
         padding: 10px 40px;
+    }
+
+    #nosotros h2 {
+        font-size: 2.2rem;
     }
 
     #nosotros .imagen-intro img{
@@ -583,6 +608,11 @@ form label {
     .parrafo-intro p {
         padding: 1.2rem;
         font-size: 1rem;
+    }
+
+    .nosotros-p {
+        padding: 0.8rem;
+        text-align: center;
     }
 
     #nosotros .nosotros-parrafo {
@@ -609,11 +639,20 @@ form label {
     .nosotros-Uno, .nosotros-Dos, .nosotros-Tres {
         width: 90%;
     }
+        /* Clientes */
+
+    #clientes h2 {
+        font-size: 2.2rem;
+    }
 
     .clientes-txt {
         font-size: 1rem;
     }
-    
+
+    /* Business */
+    #business h2 {
+        font-size: 2.2rem;
+    }
 
     .posicionamientoBusiness {
         display: flex;
@@ -644,6 +683,10 @@ form label {
     .businessDetalle p {
         font-size: 1rem;
     }
+    /* Contacto */
+    #contacto h2{
+        font-size: 2.2rem;
+    }
 
     .posicionamientoContacto {
         display: flex;
@@ -661,7 +704,7 @@ form label {
     .contactoTitulo p{
         font-size: 1rem;
     }
-
+    /* footer */
     .footer {
         display: flex;
         flex-direction: column;
@@ -671,6 +714,10 @@ form label {
     }
     .footer .redes-container {
         padding-top: 1.5rem;
+    }
+
+    .suscribe p {
+        font-size: 1rem;
     }
 
     .slider__desktop {
