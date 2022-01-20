@@ -7,8 +7,8 @@
 }
 
 body{
-    background-color: #141414;
-    color: #fbfdfe;
+    background-color:#141414;
+    color: #FDFBFE;
     font-family: "Aileron";
     letter-spacing: 1.5px;
 }
@@ -82,7 +82,7 @@ header{
     opacity: .8;
 }
 .logoNav{
-    width: 100px;
+    width: 150px;
 }
 
 .navbar-collapse{
@@ -94,8 +94,8 @@ header{
     text-transform: uppercase;
     color: white;
     font-family: "Aileron";
-    font-size: 1rem;
-    letter-spacing: 1.5px;}
+    font-size: 33.2px;
+}
 .nav-link:hover{
     font-family: "Aileron Bold";
     }
@@ -135,10 +135,10 @@ header{
     padding: 20px;
     background-color: black;
     border: black;
-    font-size: 1rem;
+    font-size: 33.2px;
     margin: 1rem;
     color: white;  
-    letter-spacing: 1.5px;
+    /* line-height: 3px; */
     text-transform: uppercase;
 }
 
@@ -179,17 +179,19 @@ header{
 
 
 .parrafo-intro h3 {
-    font-size: 3rem;
+    font-size: 84px;
     padding: 1.1rem;
     color: white;
     text-align: left;
+    font-family: "Aileron Bold";
 }
 
 .parrafo-intro p {
-    font-size: 1.4rem;
+    font-size: 33.2px;
     color: white;
     padding: 1.1rem;
     text-align: left;
+    font-family: "Aileron";
 }
 
 
@@ -198,23 +200,20 @@ header{
 
 #nosotros h2 {
     font-family: "Aileron Bold";
-    font-size: 3rem;
+    font-size: 84px;
     color: white;
     text-align: left;
     display: block;
     padding:1rem;
-    border-radius: 10px 10px 10px 10px;
-    background-color: black;
-    letter-spacing: 1.5px;
     margin-top: 1.5rem;
 }
 
 #nosotros .nosotros-parrafo {
     color: white;
-    font-size: 1.2rem;
+    font-family:"Aileron";
+    font-size: 33.2px;
     margin-top: 1rem;
     padding: 1.2rem;
-    letter-spacing: 1.5px;
 }
 
 .posicionamientoNos {
@@ -248,7 +247,7 @@ header{
     margin-top: 2rem;
 }
 .nosotros-Uno img {
-    width: 300px;
+    width: 400px;
     vertical-align: middle;
     align-self: middle;
 }
@@ -263,7 +262,7 @@ header{
 }
 
 .nosotros-Dos img {
-    width: 300px;
+    width: 400px;
 }
 
 .nosotros-Tres {
@@ -276,47 +275,55 @@ header{
 }
 
 .nosotros-Tres img {
-    width: 300px;
+    width: 400px;
 }
 
 .nosotros-h5 {
-    font-size: 1rem;
+    font-size: 26px;
     color: white;
-    text-align: center;
+    text-align: left;
+    padding: 0px 3rem;
     padding-top: 20px;
+    
 }
 
 .nosotros-p {
-    font-size: 0.8rem;
+    font-size: 22px;
     color: white;
-    text-align: center;
+    text-align: left;
+    padding: 1rem 3rem;
 } 
 
 .bg-negro {
     background-color: black;
 }
 
+.acomodar-parrafoNos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
 /* Clientes */
 #clientes h2 {
     font-family: "Aileron Bold";
-    font-size: 3rem;
+    font-size: 84px;
     color: white;
     text-align: left;
     display: block;
     padding:1rem;
-    border-radius: 10px 10px 10px 10px;
-    background-color: black;
-    letter-spacing: 1.5px;
     margin-top: 1.5rem;
 }
 
 .clientes-txt{
     
     color: white;
-    font-size: 1.2rem;
+    font-size: 31px;
     margin-top: 1rem;
     padding: 1.2rem;
-    letter-spacing: 1.5px;
+    font-family: "Aileron";
 }
 
 .sliderMarcas{
@@ -347,14 +354,11 @@ header{
 
 #business h2 {
     font-family: "Aileron Bold";
-    font-size: 3rem;
+    font-size: 84px;
     color: white;
     text-align: left;
     display: block;
     padding:1rem;
-    border-radius: 10px 10px 10px 10px;
-    background-color: black;
-    letter-spacing: 1.5px;
     margin-top: 1.5rem;
 }
 
@@ -370,14 +374,13 @@ header{
 
 .businessTvc  p {
     color: white;
-    font-size: 1.2rem;
+    font-size: 33.2px;
     margin-top: 1rem;
     padding: 1.2rem;
-    letter-spacing: 1.5px;
 }
 .businessImg{
-    width: 500px;
-    height: 250px;
+    width: 700px;
+    height: 350px;
     padding-left: 1.2rem;
 }
 .businnesItem{
@@ -388,18 +391,20 @@ header{
 }
 
 .businessDetalle h3 {
-    font-size: 2rem;
+    font-family: "Aileron Bold";
+    font-size: 52px;
 }
 
 .businessDetalle p {
-    font-size: 1.2rem;
+    font-family: "Aileron";
+    font-size: 26.6px;
 }
 
 .businessNumber{
-    font-size: 30px;
+    font-size: 84px;
     margin: 0;
     color: #666769;
-    font-weight: bold;
+    font-family: "Aileron Bold";
 }
 
 .tvc {
@@ -436,14 +441,11 @@ header{
 
 #contacto h2 {
     font-family: "Aileron Bold";
-    font-size: 3rem;
+    font-size: 84px;
     color: white;
     text-align: left;
     display: block;
     padding:1rem;
-    border-radius: 10px 10px 10px 10px;
-    background-color: black;
-    letter-spacing: 1.5px;
     margin-top: 1.5rem;
 }
 
@@ -453,9 +455,8 @@ header{
     padding: 20px;
     background-color: black;
     border: black;
-    font-size: 1rem;
+    font-size: 32.6px;
     color: white;  
-    letter-spacing: 1.5px;
     text-transform: uppercase;
 }
 .botonEnviar:hover{
@@ -466,10 +467,10 @@ header{
 
 .contactoTitulo p {
     color: white;
-    font-size: 1.2rem;
+    font-size: 33.2px;
     margin-top: 1rem;
     padding: 1.2rem;
-    letter-spacing: 1.5px;
+    font-family: "Aileron";
 }
 
 form {
@@ -477,11 +478,17 @@ form {
 }
 
 form label {
-    font-size: 1.2rem;
+    font-size: 32.6px;
+    margin-right: 1.5rem;
+}
+
+.orden-form {
+    width: 40%;
+    margin-right: 2rem;
 }
 
 .contactoImg{
-    width: 500px;
+    width: 900px;
     height: auto;
     padding-top: 0.6rem;
     padding-left: 1.2rem;
@@ -490,6 +497,7 @@ form label {
 .datosContacto {
     padding-top: 40px;
     font-family: "Aileron";
+    font-size: 19.8px;
 }
 
 .datosContacto p img {
@@ -505,19 +513,17 @@ form label {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #67696a4d;
     padding: 30px;
-    letter-spacing: 1.5px;
     border-radius: 5px;
 }
 
 .suscribe h3{
     font-family: "Aileron Bold";
-    font-size: 2rem;
+    font-size: 84px;
     padding: 10px;
 }
 .suscribe p {
-    font-size: 1.2rem;
+    font-size: 31px;
     padding:10px;
 }
 
@@ -549,7 +555,7 @@ form label {
 }
 .redes-title{
     font-family: "Aileron Bold";
-    font-size: 2rem;
+    font-size: 84px;
     padding: 10px;
 }
 
@@ -594,6 +600,9 @@ form label {
         color: black;
     }
 
+    .botonIntro {
+        font-size: 25px;
+    }
     /* Nosotros */
     .posicionamientoNos {
         display: flex;
@@ -604,7 +613,7 @@ form label {
     }
 
     #nosotros h2 {
-        font-size: 2.2rem;
+        font-size: 2.5rem;
     }
 
     #nosotros .imagen-intro img{
@@ -624,6 +633,12 @@ form label {
 
     .nosotros-p {
         padding: 0.8rem;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .nosotros-h5 {
+        font-size: 1.1rem;
         text-align: center;
     }
 
@@ -654,7 +669,7 @@ form label {
         /* Clientes */
 
     #clientes h2 {
-        font-size: 2.2rem;
+        font-size: 2.5rem;
     }
 
     .clientes-txt {
@@ -663,7 +678,7 @@ form label {
 
     /* Business */
     #business h2 {
-        font-size: 2.2rem;
+        font-size: 2.5rem;
     }
 
     .posicionamientoBusiness {
@@ -688,6 +703,10 @@ form label {
         font-size: 1rem;
     }
 
+    .businessNumber {
+        font-size: 42px;
+    }
+
     .businessDetalle h3 {
         font-size: 1.6rem;
     }
@@ -697,7 +716,7 @@ form label {
     }
     /* Contacto */
     #contacto h2{
-        font-size: 2.2rem;
+        font-size: 2.5em;
     }
 
     .posicionamientoContacto {
@@ -716,6 +735,19 @@ form label {
     .contactoTitulo p{
         font-size: 1rem;
     }
+
+    .orden-form {
+        width: 70%;
+    }
+
+    form label {
+        font-size: 25px;
+    }
+
+    .datosContacto {
+        font-size: 13px;
+    }
+
     /* footer */
     .footer {
         display: flex;
@@ -728,8 +760,16 @@ form label {
         padding-top: 1.5rem;
     }
 
+    .suscribe h3 {
+        font-size: 2.2rem;
+    }
+
     .suscribe p {
         font-size: 1rem;
+    }
+
+    .redes-container h3 {
+        font-size: 2.2rem;
     }
 
     .slider__desktop {
