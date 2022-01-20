@@ -601,7 +601,7 @@ form label {
     }
 
     .botonIntro {
-        font-size: 25px;
+        font-size: 1rem;
     }
     /* Nosotros */
     .posicionamientoNos {
@@ -746,6 +746,10 @@ form label {
 
     .datosContacto {
         font-size: 13px;
+    }
+
+    .botonEnviar {
+        font-size: 1rem;
     }
 
     /* footer */
